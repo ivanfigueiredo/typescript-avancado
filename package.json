@@ -4,7 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:ivanfigueiredo/typescript-avancado.git",
   "scripts": {
-    "start": "index.ts"
+    "start": "index.ts",
+    "build": "rimraf dist && tsc"
   },
   "author": "ivanfigueiredo <ivan.figueiredo99@gmail.com>",
   "license": "MIT",
@@ -16,5 +17,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
     "ts-node": "^10.8.2"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
   }
 }
