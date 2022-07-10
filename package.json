@@ -1,0 +1,8 @@
+{
+  "name": "typescript-avancado",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ivanfigueiredo/typescript-avancado.git",
+  "author": "ivanfigueiredo <ivanfigueiredo.wm@gmail.com>",
+  "license": "MIT"
+}
